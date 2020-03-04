@@ -17,12 +17,12 @@ class TwoSum {
 		TwoSum s = new TwoSum();
 		
 		int[] nums = {3, 2, 4};
-		s.printArray(s.twoSum(nums, 6)); 	// answer: [1, 2]
-		s.printArray(s.twoSum(nums, 5)); 	// answer: [0, 1]
+		s.printArray(s.twoSum(nums, 6)); // answer: [1, 2]
+		s.printArray(s.twoSum(nums, 5)); // answer: [0, 1]
 		
 		int[] nums2 = {7, 34, 22, 1, 10};
-		s.printArray(s.twoSum(nums2, 11)); 	// answer: [3, 4]
-		s.printArray(s.twoSum(nums2, 35)); 	// answer: [1, 3]
+		s.printArray(s.twoSum(nums2, 11)); // answer: [3, 4]
+		s.printArray(s.twoSum(nums2, 35)); // answer: [1, 3]
 	}
 	
     public int[] twoSum(int[] nums, int target) {

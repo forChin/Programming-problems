@@ -26,11 +26,11 @@ public class PowerOfThree {
 		PowerOfThree s = new PowerOfThree();
 		
 		
-		System.out.println(s.isPowerOfThree(27)); 			//answer is true
-		System.out.println(s.isPowerOfThree(129140163));	//answer is true
-		System.out.println(s.isPowerOfThree(1));			//answer is true
-		System.out.println(s.isPowerOfThree(45));			//answer is false
-		System.out.println(s.isPowerOfThree(0));			//answer is false
+		System.out.println(s.isPowerOfThree(27)); //answer is true
+		System.out.println(s.isPowerOfThree(129140163)); //answer is true
+		System.out.println(s.isPowerOfThree(1)); //answer is true
+		System.out.println(s.isPowerOfThree(45)); //answer is false
+		System.out.println(s.isPowerOfThree(0)); //answer is false
 	}
 	
 	public boolean isPowerOfThree(int n) {

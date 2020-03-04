@@ -19,10 +19,10 @@ public class LongestPalindromicSubstring {
 		LongestPalindromicSubstring l = 
 				new LongestPalindromicSubstring();
 		
-		System.out.println(l.longestPalindrome("madam"));				// answer: madam
-		System.out.println(l.longestPalindrome("paramadam")); 			// answer: madam
-		System.out.println(l.longestPalindrome("a")); 					// answer: madam
-		System.out.println(l.longestPalindrome("lkajdracecarlsabc")); 	// answer: racecar
+		System.out.println(l.longestPalindrome("madam")); // answer: madam
+		System.out.println(l.longestPalindrome("paramadam")); // answer: madam
+		System.out.println(l.longestPalindrome("a")); // answer: madam
+		System.out.println(l.longestPalindrome("lkajdracecarlsabc")); // answer: racecar
 	}
 
 	public String longestPalindrome(String s) {

@@ -21,6 +21,6 @@ public class PowerDigitSum {
             sum += (c-'0');
         }
         
-        System.out.println(sum); 	//answer is 1366
+        System.out.println(sum); //answer is 1366
     }
 }

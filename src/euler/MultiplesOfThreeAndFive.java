@@ -18,7 +18,7 @@ public class MultiplesOfThreeAndFive {
 			}
 		}
 		
-		System.out.println(sum); 	//answer is 233168
+		System.out.println(sum); //answer is 233168
 	}
 
 }
