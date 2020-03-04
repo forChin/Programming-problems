@@ -1,6 +1,6 @@
 package euler;
 
-public class MultiplesOfThreeandFive {
+public class MultiplesOfThreeAndFive {
 
 	public static void main(String[] args) {
 		int sum = 0;
@@ -11,7 +11,7 @@ public class MultiplesOfThreeandFive {
 			}
 		}
 		
-		System.out.println(sum);
+		System.out.println(sum); 	//answer is 233168
 	}
 
 }
