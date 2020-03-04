@@ -1,4 +1,4 @@
-package problems.leetcode;
+package leetcode;
 
 /* DESCRIPTION
  *Given an array of integers, return indices of the two 
