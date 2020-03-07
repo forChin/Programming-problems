@@ -12,11 +12,11 @@ public class Anagram {
 	public static void main(String[] args) {
 		Anagram a = new Anagram();
 		
-		System.out.println(a.isAnagram("cat", "tac"));						//answer is true
-		System.out.println(a.isAnagram("New York Times", "monkeys write"));	//answer is true
-		System.out.println(a.isAnagram("debit card", "bad credit"));		//answer is true
-		System.out.println(a.isAnagram("java", "cool"));					//answer is false
-		System.out.println(a.isAnagram("Python", "garbage"));				//answer is false
+		System.out.println(a.isAnagram("cat", "tac")); //answer is true
+		System.out.println(a.isAnagram("New York Times", "monkeys write")); //answer is true
+		System.out.println(a.isAnagram("debit card", "bad credit")); //answer is true
+		System.out.println(a.isAnagram("java", "cool")); //answer is false
+		System.out.println(a.isAnagram("Python", "garbage")); //answer is false
 	}
 
 	public boolean isAnagram(String str1, String str2) {
