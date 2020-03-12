@@ -18,8 +18,8 @@ public class ReverseVowelsOfAString {
 	public static void main(String[] args) {
 		ReverseVowelsOfAString r = new ReverseVowelsOfAString();
 		
-		System.out.println(r.reverseVowels("hello"));
-		System.out.println(r.reverseVowels("leetcode"));
+		System.out.println(r.reverseVowels("hello")); // answer is "holle"
+		System.out.println(r.reverseVowels("leetcode")); // answer is "leotcede"
 	}
 
 	public String reverseVowels(String s) {
